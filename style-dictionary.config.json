@@ -2,11 +2,12 @@
   "source": ["tokens.json"],
   "platforms": {
     "web": {
+      "prefix": "fl",
       "transformGroup": "css",
-      "buildPath": "src/styles/",
+      "buildPath": "apps/flight-booking-app/src/styles/",
       "files": [
         {
-          "destination": "_variables.scss",
+          "destination": "variables.css",
           "format": "css/variables"
         }
       ]

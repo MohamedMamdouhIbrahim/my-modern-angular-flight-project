@@ -2,6 +2,9 @@
   "name": "my-modern-angular-flight-project",
   "version": "0.0.0",
   "private": true,
+  "scripts": {
+  "buildStyles": "style-dictionary build --config ./style-dictionary.config.json"
+},
   "devDependencies": {
     "@angular-devkit/core": "~21.2.0",
     "@angular-devkit/schematics": "~21.2.0",
@@ -33,6 +36,7 @@
     "jsdom": "^27.1.0",
     "nx": "22.6.5",
     "prettier": "~3.6.2",
+    "style-dictionary": "^4.4.0",
     "tslib": "^2.3.0",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.40.0",

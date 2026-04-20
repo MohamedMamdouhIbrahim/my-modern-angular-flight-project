@@ -34,3 +34,5 @@ yarn-error.log*
 .angular
 
 __screenshots__/
+
+vitest.config.*.timestamp*

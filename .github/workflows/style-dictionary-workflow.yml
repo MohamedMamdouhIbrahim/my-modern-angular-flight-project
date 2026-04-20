@@ -1,0 +1,43 @@
+name: Style Dictionary Workflow
+
+on:
+  push:
+    paths:
+      - 'tokens.json'
+      - 'style-dictionary.config.json'
+
+jobs:
+  build-styles:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Build styles
+        run: npm run buildStyles
+      
+      - name: Check for changes
+        id: verify_changed_files
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and create PR
+        if: steps.verify_changed_files.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'build: update styles from style dictionary'
+          title: 'build: update generated styles'
+          body: 'This PR updates the generated styles based on changes in tokens.json or style-dictionary.config.json'
+          branch: style-dictionary-updates

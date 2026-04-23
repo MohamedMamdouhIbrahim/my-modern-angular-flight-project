@@ -49,6 +49,7 @@
     "jsdom": "^27.1.0",
     "nx": "22.6.5",
     "prettier": "~3.6.2",
+    "style-dictionary": "^4.4.0",
     "tslib": "^2.3.0",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.40.0",

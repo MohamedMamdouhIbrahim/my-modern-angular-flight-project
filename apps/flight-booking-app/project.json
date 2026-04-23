@@ -62,7 +62,6 @@
         }
       },
       "defaultConfiguration": "development",
-      "dependsOn": ["my-nest-app:serve"],
       "options": {
         "proxyConfig": "apps/flight-booking-app/proxy.conf.json"
       }

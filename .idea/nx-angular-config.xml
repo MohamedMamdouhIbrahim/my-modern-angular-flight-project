@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="NxAngularConfigService" workspaceLocation="file://$PROJECT_DIR$/nx.json">
+    <projects>
+      <project name="booking" file="file://$PROJECT_DIR$/libs/booking/project.json" />
+      <project name="catalog" file="file://$PROJECT_DIR$/libs/catalog/project.json" />
+      <project name="checking-in" file="file://$PROJECT_DIR$/libs/checking-in/project.json" />
+      <project name="flight-booking-app" file="file://$PROJECT_DIR$/apps/flight-booking-app/project.json" />
+      <project name="flight-booking-app-e2e" file="file://$PROJECT_DIR$/apps/flight-booking-app-e2e/project.json" />
+      <project name="my-nest-app" file="file://$PROJECT_DIR$/apps/my-nest-app/project.json" />
+      <project name="my-nest-app-e2e" file="file://$PROJECT_DIR$/apps/my-nest-app-e2e/project.json" />
+      <project name="payment" file="file://$PROJECT_DIR$/libs/payment/project.json" />
+      <project name="ticketing" file="file://$PROJECT_DIR$/libs/ticketing/project.json" />
+    </projects>
+  </component>
+</project>

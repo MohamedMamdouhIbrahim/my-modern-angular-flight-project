@@ -2,6 +2,7 @@
   "extends": "./tsconfig.json",
   "compilerOptions": {
     "outDir": "../../dist/apps/my-nest-app",
+    "rootDir": "./src",
     "module": "commonjs",
     "types": ["node"],
     "experimentalDecorators": true,

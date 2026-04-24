@@ -1,0 +1,119 @@
+{
+    "color": {
+        "background": {
+            "page": {
+                "value": "{color.gray.50}",
+                "type": "color",
+                "description": "page background color"
+            },
+            "button": {
+                "primary": {
+                    "active": {
+                        "$root":{
+                            "value": "{color.primary}",
+                            "type": "color",
+                            "description": "Primary button background active state"
+                        },
+                        "hover": {
+                            "value": "{color.red.100}",
+                            "type": "color",
+                            "description": "Primary button background hover state"
+                        }
+                    },
+                    "disabled": {
+                         "$root":{
+                            "value": "{color.red.300}",
+                            "type": "color",
+                            "description": "Primary button background active state"
+                        },
+                        "hover": {
+                            "value": "{color.red.200}",
+                            "type": "color",
+                            "description": "Primary button background hover state"
+                        }
+                    }
+                }
+            }
+        },
+        "text": {
+          "default": {
+            "value": "#FFFFFF",
+            "type": "color",
+            "description": "Primary text default state"
+          },
+          "hover": {
+            "value": "#F2F4F7",
+            "type": "color",
+            "description": "Primary text hover state"
+          },
+          "active": {
+            "value": "#E2E8F0",
+            "type": "color",
+            "description": "Primary text active state"
+          },
+          "disabled": {
+            "value": "#98A2B3",
+            "type": "color",
+            "description": "Primary text disabled state"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "#002366",
+            "type": "color",
+            "description": "Primary border default state"
+          },
+          "hover": {
+            "value": "#001E52",
+            "type": "color",
+            "description": "Primary border hover state"
+          },
+          "focus": {
+            "value": "#2563EB",
+            "type": "color",
+            "description": "Primary border focus state"
+          },
+          "disabled": {
+            "value": "#D0D5DD",
+            "type": "color",
+            "description": "Primary border disabled state"
+          }
+        },
+        "surface": {
+          "light": {
+            "value": "#E0F0FF",
+            "type": "color",
+            "description": "Primary light surface"
+          },
+          "lighter": {
+            "value": "#F0F7FF",
+            "type": "color",
+            "description": "Primary lighter surface"
+          },
+          "overlay": {
+            "value": "rgba(0, 35, 102, 0.1)",
+            "type": "color",
+            "description": "Primary overlay surface"
+          }
+        },
+        "gradient": {
+          "start": {
+            "value": "#002366",
+            "type": "color",
+            "description": "Primary gradient start"
+          },
+          "end": {
+            "value": "#001A47",
+            "type": "color",
+            "description": "Primary gradient end"
+          }
+        }
+    }
+  ,
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}

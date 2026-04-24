@@ -19,7 +19,10 @@
             "input": "apps/flight-booking-app/public"
           }
         ],
-        "styles": ["apps/flight-booking-app/src/styles.css"],
+        "styles": ["apps/flight-booking-app/src/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/design-system/src/assets/styles"]
+        },
         "server": "apps/flight-booking-app/src/main.server.ts",
         "ssr": {
           "entry": "apps/flight-booking-app/src/server.ts"

@@ -19,7 +19,8 @@
       "booking": ["libs/booking/src/index.ts"],
       "payment": ["libs/payment/src/index.ts"],
       "checking-in": ["libs/checking-in/src/index.ts"],
-      "ticketing": ["libs/ticketing/src/index.ts"]
+      "ticketing": ["libs/ticketing/src/index.ts"],
+      "design-system": ["libs/design-system/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -1,0 +1,121 @@
+{
+    "size": {
+      "spacing": {
+        "none": {
+          "value": "0px",
+          "type": "dimension",
+          "description": "No spacing"
+        },
+        "xxs": {
+          "value": "4px",
+          "type": "dimension",
+          "description": "Extra extra small spacing"
+        },
+        "xs": {
+          "value": "8px",
+          "type": "dimension",
+          "description": "Extra small spacing"
+        },
+        "sm": {
+          "value": "12px",
+          "type": "dimension",
+          "description": "Small spacing"
+        },
+        "md": {
+          "value": "16px",
+          "type": "dimension",
+          "description": "Medium spacing"
+        },
+        "lg": {
+          "value": "24px",
+          "type": "dimension",
+          "description": "Large spacing"
+        },
+        "xl": {
+          "value": "32px",
+          "type": "dimension",
+          "description": "Extra large spacing"
+        },
+        "xxl": {
+          "value": "40px",
+          "type": "dimension",
+          "description": "Extra extra large spacing"
+        }
+      },
+      "font": {
+        "ui": {
+          "value": "14px",
+          "type": "fontSize",
+          "description": "UI font size"
+        },
+        "body": {
+          "value": "16px",
+          "type": "fontSize",
+          "description": "Body text font size"
+        },
+        "heading": {
+          "value": "24px",
+          "type": "fontSize",
+          "description": "Heading font size"
+        },
+        "label": {
+          "value": "12px",
+          "type": "fontSize",
+          "description": "Label text font size"
+        }
+      },
+      "radius": {
+        "sm": {
+          "value": "4px",
+          "type": "dimension",
+          "description": "Small border radius"
+        },
+        "md": {
+          "value": "8px",
+          "type": "dimension",
+          "description": "Medium border radius"
+        },
+        "lg": {
+          "value": "16px",
+          "type": "dimension",
+          "description": "Large border radius"
+        }
+      },
+      "border": {
+        "thin": {
+          "value": "1px",
+          "type": "dimension",
+          "description": "Thin border width"
+        },
+        "thick": {
+          "value": "2px",
+          "type": "dimension",
+          "description": "Thick border width"
+        }
+      },
+      "icon": {
+        "sm": {
+          "value": "16px",
+          "type": "dimension",
+          "description": "Small icon size"
+        },
+        "md": {
+          "value": "24px",
+          "type": "dimension",
+          "description": "Medium icon size"
+        },
+        "lg": {
+          "value": "32px",
+          "type": "dimension",
+          "description": "Large icon size"
+        }
+      }
+    }
+  ,
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}

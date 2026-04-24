@@ -1,0 +1,35 @@
+{
+  "source": ["libs/design-system/src/assets/tokens/**/*.json"],
+  "platforms": {
+    "web": {
+      "transformGroup": "css",
+      "buildPath": "libs/design-system/src/assets/styles/",
+      "files": [
+        {
+          "destination": "colors.scss",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "color"
+            }
+          },
+          "options": {
+            "outputReferences": true
+          }
+        },
+        {
+          "destination": "spacing.scss",
+          "format": "css/variables",
+          "filter": {
+            "attributes": {
+              "category": "size"
+            }
+          },
+          "options": {
+            "outputReferences": true
+          }
+        }
+      ]
+    }
+  }
+}

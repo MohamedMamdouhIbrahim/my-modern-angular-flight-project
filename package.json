@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "buildStyles": "style-dictionary build --config ./style-dictionary.config.json"
+    "buildStyles": "style-dictionary build --config ./libs/design-system/style-dictionary.config.json"
   },
   "devDependencies": {
     "@analogjs/vite-plugin-angular": "~2.1.2",

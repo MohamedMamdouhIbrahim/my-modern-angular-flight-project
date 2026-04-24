@@ -1,0 +1,13 @@
+{
+  "color": {
+    "primary":{
+        "value": "{color.red.500}",
+        "type": "color",
+        "description": "primary color"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": ["global"]
+  }
+}

@@ -1,5 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Import global CSS variables */
-@use 'variables';
+
+// these variables from the design system library 
+//and we added config (preprocessor build option) so 
+// that we can import them like that without passing the path
+@use 'spacing';
+@use 'colors';
 

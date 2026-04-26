@@ -16,7 +16,8 @@
         "assets": [
           {
             "glob": "**/*",
-            "input": "apps/flight-booking-app/public"
+            "input": "apps/flight-booking-app/src/assets",
+            "output": "/assets"
           }
         ],
         "styles": ["apps/flight-booking-app/src/styles.scss"],

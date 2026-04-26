@@ -1,0 +1,49 @@
+
+// based class + modifier classes for border styles and colors
+// Ex class='border border-sm border-color-default'
+
+
+// #region base class
+.border {
+    border: solid var(--color-border-default) var(--size-border-thin);
+}
+// #endregion
+
+//#region modifier classes for border width
+$border-map: (
+thin: var(--size-border-thin),
+thick: var(--size-border-thick),
+);
+@each $sizeName, $borderValue in $border-map {
+  .border-#{$sizeName} {
+    border-width: $borderValue;
+  }
+}
+//#endregion
+
+//#region modifier classes for border color
+$border-color-map: (
+default: var(--color-border-default),
+hover: var(--color-border-hover),
+focus: var(--color-border-focus),
+disabled: var(--color-border-disabled)
+);
+@each $colorName, $borderColor in $border-color-map {
+  .border-color-#{$colorName} {
+    border-color: $borderColor;
+  }
+}
+//#endregion    
+
+//#region modifier classes for border radius
+$radius-size-map: (
+sm: var(--size-radius-sm),
+md: var(--size-radius-md),
+lg: var(--size-radius-lg)
+);
+@each $sizeName, $radiusValue in $radius-size-map {
+  .radius-#{$sizeName} {
+    border-radius: $radiusValue;
+  }
+}
+//#endregion

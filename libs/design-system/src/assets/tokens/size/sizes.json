@@ -1,46 +1,46 @@
 {
     "size": {
       "spacing": {
-        "none": {
-          "value": "0px",
-          "type": "dimension",
-          "description": "No spacing"
-        },
-        "xxs": {
-          "value": "4px",
-          "type": "dimension",
-          "description": "Extra extra small spacing"
-        },
-        "xs": {
-          "value": "8px",
-          "type": "dimension",
-          "description": "Extra small spacing"
-        },
-        "sm": {
-          "value": "12px",
-          "type": "dimension",
-          "description": "Small spacing"
-        },
-        "md": {
-          "value": "16px",
-          "type": "dimension",
-          "description": "Medium spacing"
-        },
-        "lg": {
-          "value": "24px",
-          "type": "dimension",
-          "description": "Large spacing"
-        },
-        "xl": {
-          "value": "32px",
-          "type": "dimension",
-          "description": "Extra large spacing"
-        },
-        "xxl": {
-          "value": "40px",
-          "type": "dimension",
-          "description": "Extra extra large spacing"
-        }
+          "none": {
+            "value": "0px",
+            "type": "dimension",
+            "description": "No spacing"
+          },
+          "xxs": {
+            "value": "4px",
+            "type": "dimension",
+            "description": "Extra extra small spacing"
+          },
+          "xs": {
+            "value": "8px",
+            "type": "dimension",
+            "description": "Extra small spacing"
+          },
+          "sm": {
+            "value": "12px",
+            "type": "dimension",
+            "description": "Small spacing"
+          },
+          "md": {
+            "value": "16px",
+            "type": "dimension",
+            "description": "Medium spacing"
+          },
+          "lg": {
+            "value": "24px",
+            "type": "dimension",
+            "description": "Large spacing"
+          },
+          "xl": {
+            "value": "32px",
+            "type": "dimension",
+            "description": "Extra large spacing"
+          },
+          "xxl": {
+            "value": "40px",
+            "type": "dimension",
+            "description": "Extra extra large spacing"
+          }
       },
       "font": {
         "ui": {

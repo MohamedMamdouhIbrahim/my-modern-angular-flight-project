@@ -1,0 +1,230 @@
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Mon Apr 27 02:04:38 2026 +0300	8be2133aaa584c7f05572f788e9c331a9be12c98,chore(deps): install TypeORM and MySQL2 with NestJS integration"
+4	1	package.json
+
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Mon Apr 27 01:59:07 2026 +0300	a08f3950d73a29282a1cdd02774337787601f8be,setup"
+2	1	apps/flight-booking-app/project.json
+2	2	apps/flight-booking-app/src/app/app.config.ts
+15	6	apps/flight-booking-app/src/app/app.ts
+0	17	apps/flight-booking-app/src/app/configuration.ts
+19	0	apps/flight-booking-app/src/app/core/configuration.ts
+9	0	apps/flight-booking-app/src/app/core/data/configuration.model.ts
+6	1	apps/flight-booking-app/src/styles.scss
+49	0	apps/flight-booking-app/src/styles/_border.scss
+5	0	apps/flight-booking-app/src/styles/_breakpoints.scss
+4	0	apps/flight-booking-app/src/styles/_spacing.scss
+0	0	apps/flight-booking-app/src/styles/_typography.scss
+40	40	libs/design-system/src/assets/tokens/size/sizes.json
+
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Fri Apr 24 17:11:45 2026 +0300	4e12f4e053882676efa93d11163f1d16ee859194,setup"
+1	0	.idea/nx-angular-config.xml
+4	1	apps/flight-booking-app/project.json
+16	0	apps/flight-booking-app/src/app/configuration.spec.ts
+17	0	apps/flight-booking-app/src/app/configuration.ts
+3	0	apps/flight-booking-app/src/assets/configuration/config.dev.json
+3	0	apps/flight-booking-app/src/assets/configuration/config.json
+3	0	apps/flight-booking-app/src/assets/configuration/config.prod.json
+3	0	apps/flight-booking-app/src/assets/configuration/config.staging.json
+1	1	apps/flight-booking-app/src/{styles.css => styles.scss}
+0	10	apps/flight-booking-app/src/styles/variables.css
+7	0	libs/design-system/README.md
+34	0	libs/design-system/eslint.config.mjs
+20	0	libs/design-system/project.json
+75	0	libs/design-system/src/assets/styles/colors.scss
+26	0	libs/design-system/src/assets/styles/spacing.scss
+119	0	libs/design-system/src/assets/tokens/color/primary.json
+68	0	libs/design-system/src/assets/tokens/color/primitive.json
+13	0	libs/design-system/src/assets/tokens/color/semantic.json
+121	0	libs/design-system/src/assets/tokens/size/sizes.json
+1	0	libs/design-system/src/index.ts
+0	0	libs/design-system/src/lib/design-system/design-system.css
+1	0	libs/design-system/src/lib/design-system/design-system.html
+21	0	libs/design-system/src/lib/design-system/design-system.spec.ts
+9	0	libs/design-system/src/lib/design-system/design-system.ts
+5	0	libs/design-system/src/test-setup.ts
+35	0	libs/design-system/style-dictionary.config.json
+31	0	libs/design-system/tsconfig.json
+26	0	libs/design-system/tsconfig.lib.json
+29	0	libs/design-system/tsconfig.spec.json
+28	0	libs/design-system/vite.config.mts
+1	1	package.json
+0	17	style-dictionary.config.json
+0	30	tokens.json
+2	1	tsconfig.base.json
+
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Thu Apr 23 03:05:28 2026 +0200	d3b2fad2f122d438dead3b1d5e56da76b1448471,Merge branch 'chore/setup-style-dictionary'"
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Thu Apr 23 02:48:59 2026 +0200	25e0e0ff1172af199e8c03a248d732eecec11b22,Refactor flight-booking-app and my-nest-app configurations, update proxy settings, and enhance code style configurations"
+8	0	.idea/.gitignore
+59	0	.idea/codeStyles/Project.xml
+5	0	.idea/codeStyles/codeStyleConfig.xml
+6	0	.idea/inspectionProfiles/Project_Default.xml
+8	0	.idea/modules.xml
+12	0	.idea/my-modern-angular-flight-project.iml
+16	0	.idea/nx-angular-config.xml
+6	0	.idea/prettier.xml
+6	0	.idea/vcs.xml
+0	1	apps/flight-booking-app/project.json
+1	1	apps/flight-booking-app/proxy.conf.json
+2	0	apps/flight-booking-app/src/app/app.config.ts
+0	1	apps/flight-booking-app/src/app/app.html
+20	5	apps/flight-booking-app/src/app/app.ts
+2	1	apps/my-nest-app/project.json
+3	3	apps/my-nest-app/src/app/app.controller.ts
+1	0	apps/my-nest-app/tsconfig.app.json
+
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Mon Apr 20 03:13:28 2026 +0200	c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe,setup-1"
+43	0	.github/workflows/style-dictionary-workflow.yml
+23	0	.vscode/launch.json
+6	0	apps/flight-booking-app/proxy.conf.json
+3	0	apps/my-nest-app-e2e/eslint.config.mjs
+18	0	apps/my-nest-app-e2e/jest.config.cts
+17	0	apps/my-nest-app-e2e/project.json
+10	0	apps/my-nest-app-e2e/src/my-nest-app/my-nest-app.spec.ts
+16	0	apps/my-nest-app-e2e/src/support/global-setup.ts
+10	0	apps/my-nest-app-e2e/src/support/global-teardown.ts
+9	0	apps/my-nest-app-e2e/src/support/test-setup.ts
+13	0	apps/my-nest-app-e2e/tsconfig.json
+9	0	apps/my-nest-app-e2e/tsconfig.spec.json
+3	0	apps/my-nest-app/eslint.config.mjs
+55	0	apps/my-nest-app/project.json
+12	0	apps/my-nest-app/src/app/app.controller.ts
+10	0	apps/my-nest-app/src/app/app.module.ts
+8	0	apps/my-nest-app/src/app/app.service.ts
+0	0	apps/my-nest-app/src/assets/.gitkeep
+21	0	apps/my-nest-app/src/main.ts
+13	0	apps/my-nest-app/tsconfig.app.json
+13	0	apps/my-nest-app/tsconfig.json
+25	0	apps/my-nest-app/webpack.config.js
+42	0	eslint.base.config.mjs
+7	0	libs/booking/README.md
+34	0	libs/booking/eslint.config.mjs
+20	0	libs/booking/project.json
+1	0	libs/booking/src/index.ts
+0	0	libs/booking/src/lib/booking/booking.css
+1	0	libs/booking/src/lib/booking/booking.html
+21	0	libs/booking/src/lib/booking/booking.spec.ts
+9	0	libs/booking/src/lib/booking/booking.ts
+5	0	libs/booking/src/test-setup.ts
+31	0	libs/booking/tsconfig.json
+26	0	libs/booking/tsconfig.lib.json
+29	0	libs/booking/tsconfig.spec.json
+28	0	libs/booking/vite.config.mts
+7	0	libs/catalog/README.md
+34	0	libs/catalog/eslint.config.mjs
+20	0	libs/catalog/project.json
+1	0	libs/catalog/src/index.ts
+0	0	libs/catalog/src/lib/catalog/catalog.css
+1	0	libs/catalog/src/lib/catalog/catalog.html
+21	0	libs/catalog/src/lib/catalog/catalog.spec.ts
+9	0	libs/catalog/src/lib/catalog/catalog.ts
+5	0	libs/catalog/src/test-setup.ts
+31	0	libs/catalog/tsconfig.json
+26	0	libs/catalog/tsconfig.lib.json
+29	0	libs/catalog/tsconfig.spec.json
+28	0	libs/catalog/vite.config.mts
+7	0	libs/checking-in/README.md
+34	0	libs/checking-in/eslint.config.mjs
+20	0	libs/checking-in/project.json
+1	0	libs/checking-in/src/index.ts
+0	0	libs/checking-in/src/lib/checking-in/checking-in.css
+1	0	libs/checking-in/src/lib/checking-in/checking-in.html
+21	0	libs/checking-in/src/lib/checking-in/checking-in.spec.ts
+9	0	libs/checking-in/src/lib/checking-in/checking-in.ts
+5	0	libs/checking-in/src/test-setup.ts
+31	0	libs/checking-in/tsconfig.json
+26	0	libs/checking-in/tsconfig.lib.json
+29	0	libs/checking-in/tsconfig.spec.json
+28	0	libs/checking-in/vite.config.mts
+7	0	libs/payment/README.md
+34	0	libs/payment/eslint.config.mjs
+20	0	libs/payment/project.json
+1	0	libs/payment/src/index.ts
+0	0	libs/payment/src/lib/payment/payment.css
+1	0	libs/payment/src/lib/payment/payment.html
+21	0	libs/payment/src/lib/payment/payment.spec.ts
+9	0	libs/payment/src/lib/payment/payment.ts
+5	0	libs/payment/src/test-setup.ts
+31	0	libs/payment/tsconfig.json
+26	0	libs/payment/tsconfig.lib.json
+29	0	libs/payment/tsconfig.spec.json
+28	0	libs/payment/vite.config.mts
+7	0	libs/ticketing/README.md
+34	0	libs/ticketing/eslint.config.mjs
+20	0	libs/ticketing/project.json
+1	0	libs/ticketing/src/index.ts
+0	0	libs/ticketing/src/lib/ticketing/ticketing.css
+1	0	libs/ticketing/src/lib/ticketing/ticketing.html
+21	0	libs/ticketing/src/lib/ticketing/ticketing.spec.ts
+9	0	libs/ticketing/src/lib/ticketing/ticketing.ts
+5	0	libs/ticketing/src/test-setup.ts
+31	0	libs/ticketing/tsconfig.json
+26	0	libs/ticketing/tsconfig.lib.json
+29	0	libs/ticketing/tsconfig.spec.json
+28	0	libs/ticketing/vite.config.mts
+4	0	package.json
+20	0	sheriff.config.ts
+4	0	vitest.workspace.ts
+
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Mon Apr 20 03:13:13 2026 +0200	462414bb9d05d991f6c9accc9cd948c9af4f2542,Update project configuration and dependencies for improved functionality and linting"
+2	0	.gitignore
+1	1	.vscode/extensions.json
+2	0	apps/flight-booking-app-e2e/eslint.config.mjs
+2	0	apps/flight-booking-app/eslint.config.mjs
+5	1	apps/flight-booking-app/project.json
+1	2	apps/flight-booking-app/src/app/app.ts
+1	1	eslint.config.mjs
+22	0	nx.json
+24	1	package.json
+7	1	tsconfig.base.json
+
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Thu Apr 16 03:56:07 2026 +0200	9a63644d155cbc7b4d9250d10fc99071f6a2ed37,setup style dictionary and update styles for flight booking app"
+3	0	apps/flight-booking-app/src/app/app.css
+1	1	apps/flight-booking-app/src/app/app.html
+4	0	apps/flight-booking-app/src/styles.css
+10	0	apps/flight-booking-app/src/styles/variables.css
+3	2	style-dictionary.config.json
+
+"Mohamed Mamdouh <mamdouhibr67@gmail.com>,Thu Apr 16 03:38:54 2026 +0200	8d4a07e5db5416e73c55f350373f04adb6528858,add tokens"
+30	0	tokens.json
+
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Thu Apr 16 03:24:33 2026 +0200	3037d54c3d3c66f1231e20b044cec9dd322605a1,setup style dictionary configuration and add build script"
+4	0	package.json
+16	0	style-dictionary.config.json
+
+"mohamed mamdouh <mamdouhibr67@gmail.com>,Thu Apr 16 02:57:07 2026 +0200	236f90301c560e08d8117278dc88306d5e7d80ee,create nx angular mono repo"
+8	0	.gitignore
+6	0	.prettierignore
+3	0	.prettierrc
+3	0	.vscode/extensions.json
+12	0	apps/flight-booking-app-e2e/eslint.config.mjs
+68	0	apps/flight-booking-app-e2e/playwright.config.ts
+9	0	apps/flight-booking-app-e2e/project.json
+8	0	apps/flight-booking-app-e2e/src/example.spec.ts
+24	0	apps/flight-booking-app-e2e/tsconfig.json
+34	0	apps/flight-booking-app/eslint.config.mjs
+84	0	apps/flight-booking-app/project.json
+-	-	apps/flight-booking-app/public/favicon.ico
+10	0	apps/flight-booking-app/src/app/app.config.server.ts
+18	0	apps/flight-booking-app/src/app/app.config.ts
+0	0	apps/flight-booking-app/src/app/app.css
+2	0	apps/flight-booking-app/src/app/app.html
+8	0	apps/flight-booking-app/src/app/app.routes.server.ts
+3	0	apps/flight-booking-app/src/app/app.routes.ts
+20	0	apps/flight-booking-app/src/app/app.spec.ts
+13	0	apps/flight-booking-app/src/app/app.ts
+953	0	apps/flight-booking-app/src/app/nx-welcome.ts
+13	0	apps/flight-booking-app/src/index.html
+11	0	apps/flight-booking-app/src/main.server.ts
+5	0	apps/flight-booking-app/src/main.ts
+66	0	apps/flight-booking-app/src/server.ts
+1	0	apps/flight-booking-app/src/styles.css
+9	0	apps/flight-booking-app/tsconfig.app.json
+31	0	apps/flight-booking-app/tsconfig.json
+8	0	apps/flight-booking-app/tsconfig.spec.json
+42	0	eslint.config.mjs
+46	0	nx.json
+54	0	package.json
+20	0	tsconfig.base.json
+
+"Mohamed Mamdouh <mamdouhibr67@gmail.com>,Thu Apr 16 02:34:24 2026 +0200	95f27565eef4c537640c3cc1663d7ab5fcecd8bb,Initial commit"
+28	0	.gitignore
+2	0	README.md

@@ -1,0 +1,860 @@
+{
+  "version": "2.0.2",
+  "commitCache": [
+    [
+      "8be2133aaa584c7f05572f788e9c331a9be12c98:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "8be2133aaa584c7f05572f788e9c331a9be12c98",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082321,
+        "metrics": []
+      }
+    ],
+    [
+      "a08f3950d73a29282a1cdd02774337787601f8be:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "a08f3950d73a29282a1cdd02774337787601f8be",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082322,
+        "metrics": [
+          {
+            "commitHash": "a08f3950d73a29282a1cdd02774337787601f8be",
+            "commitDate": "2026-04-26T22:59:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "apps/flight-booking-app/src/app/app.config.ts",
+            "linesAdded": 2,
+            "linesRemoved": 2,
+            "totalLinesAtCommit": 21,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 744
+          },
+          {
+            "commitHash": "a08f3950d73a29282a1cdd02774337787601f8be",
+            "commitDate": "2026-04-26T22:59:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "apps/flight-booking-app/src/app/app.ts",
+            "linesAdded": 15,
+            "linesRemoved": 6,
+            "totalLinesAtCommit": 37,
+            "mccabeComplexityAtCommit": 3,
+            "processingTimeMs": 711
+          },
+          {
+            "commitHash": "a08f3950d73a29282a1cdd02774337787601f8be",
+            "commitDate": "2026-04-26T22:59:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "apps/flight-booking-app/src/app/core/configuration.ts",
+            "linesAdded": 19,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 20,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 681
+          },
+          {
+            "commitHash": "a08f3950d73a29282a1cdd02774337787601f8be",
+            "commitDate": "2026-04-26T22:59:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "apps/flight-booking-app/src/app/core/data/configuration.model.ts",
+            "linesAdded": 9,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 9,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 676
+          }
+        ]
+      }
+    ],
+    [
+      "4e12f4e053882676efa93d11163f1d16ee859194:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "4e12f4e053882676efa93d11163f1d16ee859194",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082322,
+        "metrics": [
+          {
+            "commitHash": "4e12f4e053882676efa93d11163f1d16ee859194",
+            "commitDate": "2026-04-24T14:11:45.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "apps/flight-booking-app/src/app/configuration.spec.ts",
+            "linesAdded": 16,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 17,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 677
+          },
+          {
+            "commitHash": "4e12f4e053882676efa93d11163f1d16ee859194",
+            "commitDate": "2026-04-24T14:11:45.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "apps/flight-booking-app/src/app/configuration.ts",
+            "linesAdded": 17,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 18,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 817
+          },
+          {
+            "commitHash": "4e12f4e053882676efa93d11163f1d16ee859194",
+            "commitDate": "2026-04-24T14:11:45.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "libs/design-system/src/index.ts",
+            "linesAdded": 1,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 2,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 657
+          },
+          {
+            "commitHash": "4e12f4e053882676efa93d11163f1d16ee859194",
+            "commitDate": "2026-04-24T14:11:45.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "libs/design-system/src/lib/design-system/design-system.spec.ts",
+            "linesAdded": 21,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 22,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 622
+          },
+          {
+            "commitHash": "4e12f4e053882676efa93d11163f1d16ee859194",
+            "commitDate": "2026-04-24T14:11:45.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "libs/design-system/src/lib/design-system/design-system.ts",
+            "linesAdded": 9,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 10,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 680
+          },
+          {
+            "commitHash": "4e12f4e053882676efa93d11163f1d16ee859194",
+            "commitDate": "2026-04-24T14:11:45.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup",
+            "filePath": "libs/design-system/src/test-setup.ts",
+            "linesAdded": 5,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 6,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 600
+          }
+        ]
+      }
+    ],
+    [
+      "25e0e0ff1172af199e8c03a248d732eecec11b22:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "25e0e0ff1172af199e8c03a248d732eecec11b22",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082322,
+        "metrics": [
+          {
+            "commitHash": "25e0e0ff1172af199e8c03a248d732eecec11b22",
+            "commitDate": "2026-04-23T00:48:59.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "Refactor flight-booking-app and my-nest-app configurations, update proxy settings, and enhance code style configurations",
+            "filePath": "apps/flight-booking-app/src/app/app.config.ts",
+            "linesAdded": 2,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 21,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 614
+          },
+          {
+            "commitHash": "25e0e0ff1172af199e8c03a248d732eecec11b22",
+            "commitDate": "2026-04-23T00:48:59.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "Refactor flight-booking-app and my-nest-app configurations, update proxy settings, and enhance code style configurations",
+            "filePath": "apps/flight-booking-app/src/app/app.ts",
+            "linesAdded": 20,
+            "linesRemoved": 5,
+            "totalLinesAtCommit": 28,
+            "mccabeComplexityAtCommit": 2,
+            "processingTimeMs": 607
+          },
+          {
+            "commitHash": "25e0e0ff1172af199e8c03a248d732eecec11b22",
+            "commitDate": "2026-04-23T00:48:59.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "Refactor flight-booking-app and my-nest-app configurations, update proxy settings, and enhance code style configurations",
+            "filePath": "apps/my-nest-app/src/app/app.controller.ts",
+            "linesAdded": 3,
+            "linesRemoved": 3,
+            "totalLinesAtCommit": 13,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 592
+          }
+        ]
+      }
+    ],
+    [
+      "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082322,
+        "metrics": [
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "apps/my-nest-app-e2e/src/my-nest-app/my-nest-app.spec.ts",
+            "linesAdded": 10,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 11,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 573
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "apps/my-nest-app-e2e/src/support/global-setup.ts",
+            "linesAdded": 16,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 17,
+            "mccabeComplexityAtCommit": 2,
+            "processingTimeMs": 816
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "apps/my-nest-app-e2e/src/support/global-teardown.ts",
+            "linesAdded": 10,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 11,
+            "mccabeComplexityAtCommit": 2,
+            "processingTimeMs": 643
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "apps/my-nest-app-e2e/src/support/test-setup.ts",
+            "linesAdded": 9,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 10,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 776
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "apps/my-nest-app/src/app/app.controller.ts",
+            "linesAdded": 12,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 13,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 616
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "apps/my-nest-app/src/app/app.module.ts",
+            "linesAdded": 10,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 11,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 527
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "apps/my-nest-app/src/app/app.service.ts",
+            "linesAdded": 8,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 9,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 410
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "apps/my-nest-app/src/main.ts",
+            "linesAdded": 21,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 22,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 634
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "apps/my-nest-app/webpack.config.js",
+            "linesAdded": 25,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 26,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 492
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/booking/src/index.ts",
+            "linesAdded": 1,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 2,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 557
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/booking/src/lib/booking/booking.spec.ts",
+            "linesAdded": 21,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 22,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 712
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/booking/src/lib/booking/booking.ts",
+            "linesAdded": 9,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 10,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 680
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/booking/src/test-setup.ts",
+            "linesAdded": 5,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 6,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 472
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/catalog/src/index.ts",
+            "linesAdded": 1,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 2,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 509
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/catalog/src/lib/catalog/catalog.spec.ts",
+            "linesAdded": 21,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 22,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 644
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/catalog/src/lib/catalog/catalog.ts",
+            "linesAdded": 9,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 10,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 437
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/catalog/src/test-setup.ts",
+            "linesAdded": 5,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 6,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 606
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/checking-in/src/index.ts",
+            "linesAdded": 1,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 2,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 462
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/checking-in/src/lib/checking-in/checking-in.spec.ts",
+            "linesAdded": 21,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 22,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 580
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/checking-in/src/lib/checking-in/checking-in.ts",
+            "linesAdded": 9,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 10,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 393
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/checking-in/src/test-setup.ts",
+            "linesAdded": 5,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 6,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 436
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/payment/src/index.ts",
+            "linesAdded": 1,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 2,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 415
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/payment/src/lib/payment/payment.spec.ts",
+            "linesAdded": 21,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 22,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 585
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/payment/src/lib/payment/payment.ts",
+            "linesAdded": 9,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 10,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 501
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/payment/src/test-setup.ts",
+            "linesAdded": 5,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 6,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 547
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/ticketing/src/index.ts",
+            "linesAdded": 1,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 2,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 518
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/ticketing/src/lib/ticketing/ticketing.spec.ts",
+            "linesAdded": 21,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 22,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 452
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/ticketing/src/lib/ticketing/ticketing.ts",
+            "linesAdded": 9,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 10,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 514
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "libs/ticketing/src/test-setup.ts",
+            "linesAdded": 5,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 6,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 471
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "sheriff.config.ts",
+            "linesAdded": 20,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 21,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 516
+          },
+          {
+            "commitHash": "c81e5dd4905b5ffd25acd2d16d263e905a8a9ebe",
+            "commitDate": "2026-04-20T01:13:28.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "setup-1",
+            "filePath": "vitest.workspace.ts",
+            "linesAdded": 4,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 5,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 402
+          }
+        ]
+      }
+    ],
+    [
+      "462414bb9d05d991f6c9accc9cd948c9af4f2542:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "462414bb9d05d991f6c9accc9cd948c9af4f2542",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082824,
+        "metrics": [
+          {
+            "commitHash": "462414bb9d05d991f6c9accc9cd948c9af4f2542",
+            "commitDate": "2026-04-20T01:13:13.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "Update project configuration and dependencies for improved functionality and linting",
+            "filePath": "apps/flight-booking-app/src/app/app.ts",
+            "linesAdded": 1,
+            "linesRemoved": 2,
+            "totalLinesAtCommit": 13,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 206
+          }
+        ]
+      }
+    ],
+    [
+      "9a63644d155cbc7b4d9250d10fc99071f6a2ed37:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "9a63644d155cbc7b4d9250d10fc99071f6a2ed37",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082824,
+        "metrics": []
+      }
+    ],
+    [
+      "8d4a07e5db5416e73c55f350373f04adb6528858:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "8d4a07e5db5416e73c55f350373f04adb6528858",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082824,
+        "metrics": []
+      }
+    ],
+    [
+      "3037d54c3d3c66f1231e20b044cec9dd322605a1:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "3037d54c3d3c66f1231e20b044cec9dd322605a1",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082824,
+        "metrics": []
+      }
+    ],
+    [
+      "236f90301c560e08d8117278dc88306d5e7d80ee:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082824,
+        "metrics": [
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app-e2e/playwright.config.ts",
+            "linesAdded": 68,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 69,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 234
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app-e2e/src/example.spec.ts",
+            "linesAdded": 8,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 9,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 219
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/app/app.config.server.ts",
+            "linesAdded": 10,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 11,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 223
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/app/app.config.ts",
+            "linesAdded": 18,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 19,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 197
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/app/app.routes.server.ts",
+            "linesAdded": 8,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 9,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 225
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/app/app.routes.ts",
+            "linesAdded": 3,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 4,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 207
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/app/app.spec.ts",
+            "linesAdded": 20,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 21,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 198
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/app/app.ts",
+            "linesAdded": 13,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 14,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 233
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/app/nx-welcome.ts",
+            "linesAdded": 953,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 954,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 207
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/main.server.ts",
+            "linesAdded": 11,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 12,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 168
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/main.ts",
+            "linesAdded": 5,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 6,
+            "mccabeComplexityAtCommit": 1,
+            "processingTimeMs": 183
+          },
+          {
+            "commitHash": "236f90301c560e08d8117278dc88306d5e7d80ee",
+            "commitDate": "2026-04-16T00:57:07.000Z",
+            "author": "mohamed mamdouh",
+            "commitMessage": "create nx angular mono repo",
+            "filePath": "apps/flight-booking-app/src/server.ts",
+            "linesAdded": 66,
+            "linesRemoved": 0,
+            "totalLinesAtCommit": 67,
+            "mccabeComplexityAtCommit": 3,
+            "processingTimeMs": 156
+          }
+        ]
+      }
+    ],
+    [
+      "95f27565eef4c537640c3cc1663d7ab5fcecd8bb:.ts,.js,.tsx,.jsx:2.0.2",
+      {
+        "commitHash": "95f27565eef4c537640c3cc1663d7ab5fcecd8bb",
+        "fileExtensions": [
+          ".ts",
+          ".js",
+          ".tsx",
+          ".jsx"
+        ],
+        "version": "2.0.2",
+        "timestamp": 1777692082901,
+        "metrics": []
+      }
+    ]
+  ]
+}

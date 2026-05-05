@@ -1,0 +1,30 @@
+{
+  "scopes": [
+    "apps/my-nest-app",
+    "apps/flight-booking-app",
+    "libs/booking",
+    "libs/catalog",
+    "libs/checking-in",
+    "libs/design-system"
+  ],
+  "groups": [
+    "apps",
+    "libs"
+  ],
+  "entries": [],
+  "filter": {
+    "files": [],
+    "logs": []
+  },
+  "aliases": {},
+  "teams": {
+    "example-team-a": [
+      "John Doe",
+      "Jane Doe"
+    ],
+    "example-team-b": [
+      "Max Muster",
+      "Susi Sorglos"
+    ]
+  }
+}

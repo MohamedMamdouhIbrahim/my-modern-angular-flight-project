@@ -1,20 +1,36 @@
-import { SheriffConfig } from '@softarc/sheriff-core';
+import { sameTag, SheriffConfig } from "@softarc/sheriff-core";
 
-/**
-  * Minimal configuration for Sheriff
-  * Assigns the 'noTag' tag to all modules and
-  * allows all modules to depend on each other.
-  */
-
-export const config: SheriffConfig = {
+export const sheriffConfig: SheriffConfig = {
   enableBarrelLess: true,
-  modules: {}, // apply tags to your modules
-  depRules: {
-    // root is a virtual module, which contains all files not being part
-    // of any module, e.g. application shell, main.ts, etc.
-    'root': 'noTag',
-    'noTag': 'noTag',
+  modules: {
+    'apps/flight-booking-app/src/app/domains/<domain>': {
+      'feature-<name>': ['domain:<domain>', 'type:feature'],
+      'ui-<name>': ['domain:<domain>', 'type:ui'],
+      'data-<name>': ['domain:<domain>', 'type:data'],
+      'util-<name>': ['domain:<domain>', 'type:util'],
 
-    // add your dependency rules here
+      data: ['domain:<domain>', 'type:data'],
+      ui: ['domain:<domain>', 'type:ui'],
+      util: ['domain:<domain>', 'type:util'],
+
+      ai: ['domain:<domain>', 'type:ai'],
+    },
+
+    'src/app/testing': ['testing'],
+  },
+  depRules: {
+    root: '*',
+
+    'domain:*': [sameTag, 'domain:shared'],
+
+    'type:ai': ['type:feat', 'type:ui', 'type:data', 'type:util'],
+
+    'type:feat': ['type:ui', 'type:data', 'type:util'],
+    'type:ui': ['type:data', 'type:util'],
+    'type:data': ['type:util'],
+    'type:util': [],
+
+    testing: '*',
+    '*': ['testing'],
   },
 };
